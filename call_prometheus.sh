@@ -1,0 +1,1 @@
+while true; do sleep 1; curl -s http://localhost:8080/actuator/prometheus > /dev/null; echo 'Called /actuator/prometheus';done
